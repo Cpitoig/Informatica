@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #f9f8f6;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #4bec58;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  }
+  
+  header .frase-inicial {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  nav {
+    background-color: #53f56e;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffeaa7;
+    transform: scale(1.1);
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: #58d638;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #4bec4b;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+  }
+  
+  #valores ul {
+    list-style: square;
+    padding-left: 1.5rem;
+  }
+  
+  #valores li {
+    margin-bottom: 0.8rem;
+  }
+  
+  .contenedor-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .tarjeta-obra {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 1rem;
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tarjeta-obra:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+  
+  .tarjeta-obra h3 {
+    color: #ec4b4b;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tarjeta-obra p {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+
+  footer {
+    background-color: #d63838;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
